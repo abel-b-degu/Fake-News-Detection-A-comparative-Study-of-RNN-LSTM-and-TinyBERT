@@ -36,8 +36,12 @@ Run the Notebook
 
 Key Insights
 •	All three models performed well on fake news detection, with a clear progression in accuracy from RNN → LSTM → TinyBERT
+
 •	RNN struggled most with long news articles due to its inability to retain long-range context
+
 •	LSTM improved significantly thanks to its gating mechanism
+
 •	TinyBERT outperformed both sequence models due to its pretraining on large text corpora — it already understood language and focused purely on classification
+
 •	Dropout (0.3) and Early Stopping (patience=4) were applied consistently across all models to prevent severe overfitting
 
