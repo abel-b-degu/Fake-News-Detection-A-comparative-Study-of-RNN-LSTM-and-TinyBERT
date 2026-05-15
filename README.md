@@ -33,6 +33,7 @@ Run the Notebook
 -	open notebook
 -	Run all cells from top to bottom
 -	The data will be automatically downloaded via kagglehub
+
 Key Insights
 •	All three models performed well on fake news detection, with a clear progression in accuracy from RNN → LSTM → TinyBERT
 •	RNN struggled most with long news articles due to its inability to retain long-range context
