@@ -1,4 +1,4 @@
-# 📰 Fake News Detection: A Comparative Study of RNN, LSTM, and TinyBERT
+# Fake News Detection: A Comparative Study of RNN, LSTM, and TinyBERT
 
 This project compares three deep learning architectures — **SimpleRNN**, **LSTM**, and **TinyBERT** — for detecting fake news using the [Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) from Kaggle.
 
@@ -14,7 +14,7 @@ This project compares three deep learning architectures — **SimpleRNN**, **LST
 
 ---
 
-## 🧠 Models
+## Models
 
 ### SimpleRNN
 - Trained from scratch using Keras
@@ -33,7 +33,7 @@ This project compares three deep learning architectures — **SimpleRNN**, **LST
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 | Property | Details |
 |----------|---------|
@@ -65,7 +65,7 @@ pip install seaborn
 
 ---
 
-## 🔑 Key Insights
+## Key Insights
 
 - All three models performed well, with a clear progression in accuracy: **RNN → LSTM → TinyBERT**
 - **RNN** struggled most with long news articles due to its inability to retain long-range context
@@ -75,7 +75,7 @@ pip install seaborn
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)
@@ -85,7 +85,7 @@ pip install seaborn
 
 ---
 
-## 📚 References
+## References
 
 - [TinyBERT — Huawei Noah's Ark Lab](https://huggingface.co/huawei-noah/TinyBERT_General_4L_312D)
 - [Jiao et al., 2019 — TinyBERT Paper](https://arxiv.org/abs/1909.10351)
